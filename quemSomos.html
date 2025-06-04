@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quem somos</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="cabecalho">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logoSaraiva.png" alt="Saraiva" width="50" height="auto">
+                    Saraiva
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="loja.html">Livros</a></li>
+                    <li><a href="editoras.html">Editoras</a></li>
+                    <li><a href="quemSomos.html">Quem somos</a></li>
+                    <li><a href="trabalhe.html">Trabalhe conosco</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="corpo">
+            <div class="blocoPrincipal">
+                <h1 class="titulo">Quem Somos</h1>
+
+                <section class="secaoApresentacao">
+                    <figure class="imagens">
+                        <img src="quemSomos1.png" alt="Primeira Livraria Saraiva">
+                    </figure>
+                    <div class="blocoTexto">
+                        <p>Fundada em 1914 por Joaquim Ignácio da Fonseca Saraiva, a Saraiva iniciou sua trajetória como uma pequena livraria em São Paulo, dedicada a promover o acesso ao conhecimento. 
+                            Desde o começo, a empresa teve como objetivo oferecer uma variedade de títulos que estimulassem a cultura e a educação no Brasil. 
+                            Com o passar dos anos, a Saraiva cresceu e se modernizou, acompanhando as mudanças do mercado editorial. 
+                            Hoje, é reconhecida como uma das maiores redes de livrarias do país, presente em diversos canais físicos e digitais.</p>
+                    </div>
+                </section>
+
+                <section class="caixinha">
+                    <h2>Formas de contato</h2>
+                    <div class="caixinhasDentro">
+                        <div class="blocoGrid">
+                            <h3>Contato Presencial</h3>
+                            <p>Visite nossa loja principal em:</p>
+                            <address>Rua Exemplo 123<br>Centro, Curitiba - PR</address>
+                        </div>
+                        <div class="blocoGrid">
+                            <h3>E-mail</h3>
+                            <p>Envie suas dúvidas para:</p>
+                            <p><a href="mailto:atendimento@saraivaexemplo.com.br">atendimento@saraivaexemplo.com.br</a></p>
+                        </div>
+                        <div class="blocoGrid">
+                            <h3>Redes Sociais</h3>
+                            <p>Conecte-se conosco:</p>
+                            <ul>
+                                <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                                <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <br>
+                    <h2>Entre em contato por aqui</h2>
+                    <form action="#">
+                        <div class="formulario">
+                            <label for="contato-nome">Nome</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+                        <div class="formulario">
+                            <label for="contato-email">E-mail</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="formulario">
+                            <label for="assunto">Assunto</label>
+                            <input type="text" id="assunto" name="assunto" required>
+                        </div>
+                        <div class="formulario">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
+                        </div>
+                        <div class="botaoFormulario">
+                            <button type="submit" class="botaoEnviar">Enviar Mensagem</button>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </main>
+
+        <footer>
+            <p>Gustavo Pukanski Schatzmann | UTFPR - Projeto Front-End</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trabalhe Conosco</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="cabecalho">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logoSaraiva.png" alt="Saraiva" width="50" height="auto">
+                    Saraiva
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="loja.html">Livros</a></li>
+                    <li><a href="editoras.html">Editoras</a></li>
+                    <li><a href="quemSomos.html">Quem somos</a></li>
+                    <li><a href="trabalhe.html">Trabalhe conosco</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="corpo">
+            <div class="blocoPrincipal">
+                <h1 class="titulo">Trabalhe conosco</h1>
+
+                <section class="secaoApresentacao">
+                    <div class="blocoTexto">
+                        <h2>Venha fazer parte da nossa equipe!</h2>
+                        <p>Se você é apaixonado por livros e acredita no poder da cultura para transformar vidas, seu lugar é aqui conosco!
+                            Buscamos talentos que queiram fazer a diferença no dia a dia dos nossos clientes, oferecendo um atendimento que inspira e conecta pessoas a novas histórias. 
+                            Junte-se a um time dedicado a disseminar conhecimento e entretenimento por todo o Brasil.</p>
+                    </div>
+                    <div class="imagens">
+                        <img src="trabalhe1.jpg" alt="Trabalhador da Livraria">
+                    </div>
+                </section>
+
+                <section class="caixinha">
+                    <h2>Envie suas informações</h2>
+                    <form action="#">
+                        <div class="formulario">
+                            <label for="nome">Nome completo</label>
+                            <input type="text" id="nomeTrabalhe" name="nome" required>
+                        </div>
+                        <div class="formulario">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="emailTrabalhe" name="email" required>
+                        </div>
+                        <div class="formulario">
+                            <label for="telefone">Telefone</label>
+                            <input type="tel" id="telefone" name="telefone" placeholder="(xx) xxxxx-xxxx">
+                        </div>
+                        <div class="formulario">
+                            <label for="area">Área de interesse</label>
+                            <select id="area" name="area" required>
+                                <option value="" disabled selected>Selecione uma área</option>
+                                <option value="marketing">Marketing</option>
+                                <option value="ti">TI</option>
+                                <option value="atendimento">Atendimento</option>
+                                <option value="logistica">Logística</option>
+                                <option value="vendas">Vendas</option>
+                            </select>
+                        </div>
+                        <div class="formulario">
+                            <label for="linkedin">Perfil do LinkedIn</label>
+                            <input type="url" id="linkedin" name="linkedin" placeholder="https://www.linkedin.com/in/seu-perfil">
+                        </div>
+                        <div class="botaoFormulario">
+                            <button type="submit" class="botaoEnviar">Mandar Currículo</button>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </main>
+
+        <footer>
+            <p>Gustavo Pukanski Schatzmann | UTFPR - Projeto Front-End</p>
+        </footer>
+    </body>
+</html>
