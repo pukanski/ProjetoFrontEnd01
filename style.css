@@ -169,7 +169,7 @@ body {
     font-weight: bold;
 
 }
-
+/*
 .formulario input{
     width: 100%;
     padding: 10px;
@@ -208,7 +208,7 @@ body {
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s ease;
-}
+}*/
 
 .Grid{
     display: grid;
