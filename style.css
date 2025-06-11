@@ -159,56 +159,6 @@ body {
     margin-bottom: 5px;
 }
 
-.formulario{
-    margin-bottom: 20px;
-}
-
-.formulario label{
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-
-}
-/*
-.formulario input{
-    width: 100%;
-    padding: 10px;
-    border: 1.5px solid #F6F2F2;
-    border-radius: 8px;
-    font-size: 16px;
-}
-
-.formulario textarea{
-    width: 100%;
-    border: 1.5px solid #F6F2F2;
-    border-radius: 8px;
-    font-size: 16px;
-    resize: vertical;
-    min-height: 100px;
-}
-
-.formulario select{
-    width: 100%;
-    padding: 10px;
-    border: 1.5px solid #F6F2F2;
-    border-radius: 8px;
-    font-size: 16px;
-}
-
-.botaoFormulario{
-    text-align: right;
-}
-
-.botaoEnviar{
-    background-color: #ffcc01;
-    padding: 15px 25px;
-    border: none;
-    border-radius: 8px;
-    font-size: 18px;
-    font-weight: bold;
-    cursor: pointer;
-}*/
-
 .Grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -293,4 +243,9 @@ body {
     margin-bottom: 5px;
     text-align: justify;
     font-size: 16px;
+}
+
+#tirarEfeitoEmail{
+    color: #007bff;
+    text-decoration: none;
 }
